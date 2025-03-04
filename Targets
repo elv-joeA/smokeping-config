@@ -15,41 +15,41 @@ title = Local Network
 ++ LocalMachine
 
 menu = Local Machine
-title = This host
-host = localhost
+title = localhost 127.0.0.1
+host = 127.0.0.1
 #alerts = someloss
 
 ++ pfsense
 
 menu = pfsense
-title = 192.168.90.1
+title = pfsense 192.168.90.1
 host = 192.168.90.1
 #alerts = someloss
 
 ++ paxio_upstream
 
 menu = paxio upstream
-title = 148.64.120.65
+title = paxio upstream 148.64.120.65
 host = 148.64.120.65
 #alerts = someloss
 
 ++ paxio_gtt
 
 menu = paxio upstream stream gtt
-title = 65.175.25.9
+title = paxio upstream stream gtt 65.175.25.9
 host = 65.175.25.9
 #alerts = someloss
 
 ++ mi1_switch_external
 
 menu = mi1 switch external 
-title = 208.116.156.194
+title = mi1 switch external 208.116.156.194
 host = 208.116.156.194
 #alerts = someloss
 
 ++ sv3_switch_external
 
 menu = sv3 switch external 
-title = 173.205.51.118
+title = sv3_switch_external 173.205.51.118
 host = 173.205.51.118
 #alerts = someloss
