@@ -1,0 +1,55 @@
+*** Targets ***
+
+probe = FPing
+
+menu = Top
+title = Network Latency Grapher
+remark = Ugh, RRD.  But smokeping will graph all the pings.
+
++ Local
+
+menu = Local
+title = Local Network
+#parents = owner:/Test/James location:/
+
+++ LocalMachine
+
+menu = Local Machine
+title = This host
+host = localhost
+#alerts = someloss
+
+++ pfsense
+
+menu = pfsense
+title = 192.168.90.1
+host = 192.168.90.1
+#alerts = someloss
+
+++ paxio_upstream
+
+menu = paxio upstream
+title = 148.64.120.65
+host = 148.64.120.65
+#alerts = someloss
+
+++ paxio_gtt
+
+menu = paxio upstream stream gtt
+title = 65.175.25.9
+host = 65.175.25.9
+#alerts = someloss
+
+++ mi1_switch_external
+
+menu = mi1 switch external 
+title = 208.116.156.194
+host = 208.116.156.194
+#alerts = someloss
+
+++ sv3_switch_external
+
+menu = sv3 switch external 
+title = 173.205.51.118
+host = 173.205.51.118
+#alerts = someloss
