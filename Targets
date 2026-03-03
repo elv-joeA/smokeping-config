@@ -26,30 +26,58 @@ title = pfsense 192.168.90.1
 host = 192.168.90.1
 #alerts = someloss
 
-++ paxio_upstream
+++ mbgateway
 
-menu = paxio upstream
-title = paxio upstream 148.64.120.65
-host = 148.64.120.65
+menu = monkeybrains gw
+title = monkeybrains default gw 207.53.252.17
+host = 207.53.252.17
 #alerts = someloss
 
-++ paxio_gtt
+++ mbtest
 
-menu = paxio upstream stream gtt
-title = paxio upstream stream gtt 65.175.25.9
-host = 65.175.25.9
+menu = monkeybrains test
+title = monkeybrains test static route 216.239.35.8
+host = 216.239.35.8
+#alerts = someloss
+
+++ wifi_gw
+
+menu = wifi gw
+title = 192.168.20.1 (gateway alternate ip) via wifi
+host = 192.168.20.1
+#alerts = someloss
+
+++ wifi_inet
+
+menu = wifi to internet
+title = 1.0.0.1 (Cloudflare DNS) via wifi
+host = 1.0.0.1
 #alerts = someloss
 
 ++ mi1_switch_external
 
-menu = mi1 switch external 
+menu = mi1 switch external
 title = mi1 switch external 208.116.156.194
 host = 208.116.156.194
 #alerts = someloss
 
 ++ sv3_switch_external
 
-menu = sv3 switch external 
+menu = sv3 switch external
 title = sv3_switch_external 173.205.51.118
 host = 173.205.51.118
+#alerts = someloss
+
+++ dc1_switch_external
+
+menu = dc1 switch external
+title = dc1_switch_external 208.116.220.166
+host = 208.116.220.166
+#alerts = someloss
+
+++ sg1_switch_external
+
+menu = sg3 switch external
+title = sg3_switch_external 64.235.250.97
+host = 64.235.250.97
 #alerts = someloss
