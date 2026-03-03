@@ -10,7 +10,6 @@ remark = Ugh, RRD.  But smokeping will graph all the pings.
 
 menu = Local
 title = Local Network
-#parents = owner:/Test/James location:/
 
 ++ LocalMachine
 
@@ -54,30 +53,130 @@ title = 1.0.0.1 (Cloudflare DNS) via wifi
 host = 1.0.0.1
 #alerts = someloss
 
-++ mi1_switch_external
++ general
 
-menu = mi1 switch external
-title = mi1 switch external 208.116.156.194
-host = 208.116.156.194
+menu = Internet
+title = General Internet Stuffs
+
+++ cfdns
+
+menu = cloudflare dns
+title = 1.1.1.1 (Cloudflare DNS) via wired
+host = 1.1.1.1
 #alerts = someloss
 
-++ sv3_switch_external
+++ googns
 
-menu = sv3 switch external
-title = sv3_switch_external 173.205.51.118
-host = 173.205.51.118
+menu = google dns
+title = 8.8.8.8 (Google DNS) via wired
+host = 8.8.8.8
 #alerts = someloss
+
+++ dns4221
+
+menu = google dns
+title = 4.2.2.1 (Random DNS) via wired
+host = 4.2.2.1
+#alerts = someloss
+
+
++ IBX
+
+menu = IBX main
+title = IBX main network
+
+++ sg1_switch_external_vxlan
+
+menu = sg3 vxlan
+title = sg3 switch external vxlan 64.235.250.97
+host = 64.235.250.97
+
+++ am1_switch_external
+
+menu = am1 switch external
+title = am1 switch external (154.14.149.62)
+host = 154.14.149.62
+
+++ ch1_switch_external
+
+menu = ch1 switch external
+title = ch1 switch external (76.74.25.170)
+host = 76.74.25.170
 
 ++ dc1_switch_external
 
 menu = dc1 switch external
-title = dc1_switch_external 208.116.220.166
+title = dc1 switch external (208.116.220.166)
 host = 208.116.220.166
-#alerts = someloss
+
+++ fr5_switch_external
+
+menu = fr5 switch external
+title = fr5 switch external (154.14.149.82)
+host = 154.14.149.82
+
+++ la1_switch_external
+
+menu = la1 switch external
+title = la1 switch external (76.74.24.30)
+host = 76.74.24.30
+
+++ ld5_switch_external
+
+menu = ld5 switch external
+title = ld5 switch external (154.14.151.106)
+host = 154.14.151.106
+
+++ ld8_switch_external
+
+menu = ld8 switch external
+title = ld8 switch external (154.14.149.86)
+host = 154.14.149.86
+
+++ mi1_switch_external
+
+menu = mi1 switch external
+title = mi1 switch external (208.116.156.194)
+host = 208.116.156.194
+
+++ ml2_switch_external
+
+menu = ml2 switch external
+title = ml2 switch external (154.14.151.170)
+host = 154.14.151.170
+
+++ pa2_switch_external
+
+menu = pa2 switch external
+title = pa2 switch external (154.14.151.122)
+host = 154.14.151.122
+
+++ se2_switch_external
+
+menu = se2 switch external
+title = se2 switch external (209.120.132.202)
+host = 209.120.132.202
+
+++ sv3_switch_external
+
+menu = sv3 switch external
+title = sv3 switch external (173.205.51.118)
+host = 173.205.51.118
+
+++ tr1_switch_external
+
+menu = tr1 switch external
+title = tr1 switch external (76.74.37.246)
+host = 76.74.37.246
+
+++ sy1_switch_external
+
+menu = sy1 switch external
+title = sy1 switch external (60.242.191.114)
+host = 60.242.191.114
 
 ++ sg1_switch_external
 
-menu = sg3 switch external
-title = sg3_switch_external 64.235.250.97
-host = 64.235.250.97
-#alerts = someloss
+menu = sg1 switch external
+title = sg1 switch external (67.199.138.218)
+host = 67.199.138.218
