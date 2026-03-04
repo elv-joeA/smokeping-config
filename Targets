@@ -85,12 +85,6 @@ host = 4.2.2.1
 menu = IBX main
 title = IBX main network
 
-++ sg1_switch_external_vxlan
-
-menu = sg3 vxlan
-title = sg3 switch external vxlan 64.235.250.97
-host = 64.235.250.97
-
 ++ am1_switch_external
 
 menu = am1 switch external
@@ -180,3 +174,99 @@ host = 60.242.191.114
 menu = sg1 switch external
 title = sg1 switch external (67.199.138.218)
 host = 67.199.138.218
+
++ VXLAN
+
+menu = VXLAN
+title = VXLAN Tunnel IPs
+
+++ am1_vxlan_tunnelip
+
+menu = am1 vxlan tunnel ip
+title = am1 vxlan tunnel ip (212.115.135.114)
+host = 212.115.135.114
+
+++ ch1_vxlan_tunnelip
+
+menu = ch1 vxlan tunnel ip
+title = ch1 vxlan tunnel ip (74.199.200.202)
+host = 74.199.200.202
+
+++ dc1_vxlan_tunnelip
+
+menu = dc1 vxlan tunnel ip
+title = dc1 vxlan tunnel ip (74.199.200.198)
+host = 74.199.200.198
+
+++ fr5_vxlan_tunnelip
+
+menu = fr5 vxlan tunnel ip
+title = fr5 vxlan tunnel ip (212.115.179.146)
+host = 212.115.179.146
+
+++ la1_vxlan_tunnelip
+
+menu = la1 vxlan tunnel ip
+title = la1 vxlan tunnel ip (74.199.200.210)
+host = 74.199.200.210
+
+++ ld5_vxlan_tunnelip
+
+menu = ld5 vxlan tunnel ip
+title = ld5 vxlan tunnel ip (212.221.20.182)
+host = 212.221.20.182
+
+++ ld8_vxlan_tunnelip
+
+menu = ld8 vxlan tunnel ip
+title = ld8 vxlan tunnel ip (212.221.20.78)
+host = 212.221.20.78
+
+++ mi1_vxlan_tunnelip
+
+menu = mi1 vxlan tunnel ip
+title = mi1 vxlan tunnel ip (74.199.200.214)
+host = 74.199.200.214
+
+++ ml2_vxlan_tunnelip
+
+menu = ml2 vxlan tunnel ip
+title = ml2 vxlan tunnel ip (212.115.181.18)
+host = 212.115.181.18
+
+++ pa2_vxlan_tunnelip
+
+menu = pa2 vxlan tunnel ip
+title = pa2 vxlan tunnel ip (212.115.155.26)
+host = 212.115.155.26
+
+++ se2_vxlan_tunnelip
+
+menu = se2 vxlan tunnel ip
+title = se2 vxlan tunnel ip (74.199.194.62)
+host = 74.199.194.62
+
+++ sg1_vxlan_tunnelip
+
+menu = sg1 vxlan tunnel ip
+title = sg1 vxlan tunnel ip (64.235.238.130)
+host = 64.235.238.130
+
+++ sv3_vxlan_tunnelip
+
+menu = sv3 vxlan tunnel ip
+title = sv3 vxlan tunnel ip (74.199.200.194)
+host = 74.199.200.194
+
+++ sy1_vxlan_tunnelip
+
+menu = sy1 vxlan tunnel ip
+title = sy1 vxlan tunnel ip (154.18.99.10)
+host = 154.18.99.10
+
+++ tr1_vxlan_tunnelip
+
+menu = tr1 vxlan tunnel ip
+title = tr1 vxlan tunnel ip (74.199.200.206)
+host = 74.199.200.206
+
