@@ -21,8 +21,8 @@ host = 127.0.0.1
 ++ pfsense
 
 menu = pfsense
-title = pfsense alt 192.168.20.1 to go via wired
-host = 192.168.20.1
+title = pfsense 192.168.90.1 via wired
+host = 192.168.90.1
 #alerts = someloss
 
 ++ mbgateway
@@ -42,8 +42,8 @@ host = 216.239.35.8
 ++ wifi_gw
 
 menu = wifi gw
-title = 192.168.90.1 via wifi
-host = 192.168.90.1
+title = pfsense alt GW (192.168.20.1) via wifi
+host = 192.168.20.1
 #alerts = someloss
 
 ++ wifi_inet
