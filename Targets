@@ -51,7 +51,12 @@ host = 192.168.20.1
 menu = wifi to internet
 title = 1.0.0.1 (Cloudflare DNS) via wifi
 host = 1.0.0.1
-#alerts = someloss
+
+++ ml02
+
+menu = ml02
+title = ml02
+host = 192.168.90.214
 
 + general
 
