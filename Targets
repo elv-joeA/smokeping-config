@@ -16,35 +16,31 @@ title = Local Network
 menu = Local Machine
 title = localhost 127.0.0.1
 host = 127.0.0.1
-#alerts = someloss
 
 ++ pfsense
 
 menu = pfsense
 title = pfsense 192.168.90.1 via wired
 host = 192.168.90.1
-#alerts = someloss
+
 
 ++ mbgateway
 
 menu = monkeybrains gw
 title = monkeybrains default gw 207.53.252.17
 host = 207.53.252.17
-#alerts = someloss
 
 ++ mbtest
 
 menu = monkeybrains test
 title = monkeybrains test static route 216.239.35.8
 host = 216.239.35.8
-#alerts = someloss
 
 ++ wifi_gw
 
 menu = wifi gw
 title = pfsense alt GW (192.168.20.1) via wifi
 host = 192.168.20.1
-#alerts = someloss
 
 ++ wifi_inet
 
@@ -68,21 +64,18 @@ title = General Internet Stuffs
 menu = cloudflare dns
 title = 1.1.1.1 (Cloudflare DNS) via wired
 host = 1.1.1.1
-#alerts = someloss
 
 ++ googns
 
 menu = google dns
 title = 8.8.8.8 (Google DNS) via wired
 host = 8.8.8.8
-#alerts = someloss
 
 ++ dns4221
 
 menu = google dns
 title = 4.2.2.1 (Random DNS) via wired
 host = 4.2.2.1
-#alerts = someloss
 
 
 + IBX
