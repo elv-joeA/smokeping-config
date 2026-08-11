@@ -56,6 +56,12 @@ menu = ml02
 title = ml02
 host = 192.168.90.214
 
+++ ups
+
+menu = ups
+title = ups (192.168.90.8)
+host = 192.168.90.8
+
 + general
 
 menu = Internet
