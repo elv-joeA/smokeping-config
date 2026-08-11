@@ -20,7 +20,8 @@ host = 127.0.0.1
 ++ pfsense
 
 menu = pfsense
-title = pfsense 192.168.90.1 via wired
+title = pfsense 192.168.90.1 via wired (hopefully)
+remark = (arp confined to proper interfaces, static routes set, but sometimes still pingpongs to wireless ??)
 host = 192.168.90.1
 
 
@@ -40,6 +41,7 @@ host = 216.239.35.8
 
 menu = wifi gw
 title = pfsense alt GW (192.168.20.1) via wifi
+remark = this alternate IP is forced out the wifi (and reliably goes out wifi)
 host = 192.168.20.1
 
 ++ wifi_inet
