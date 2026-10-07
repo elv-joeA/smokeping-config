@@ -1,0 +1,1 @@
+podman exec smokeping pkill -f -HUP '/usr/bin/perl /usr/s?bin/smokeping(_cgi)?'

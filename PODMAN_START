@@ -1,0 +1,4 @@
+## https://hub.docker.com/r/linuxserver/smokeping
+
+podman run -d --net=host --name=smokeping --restart unless-stopped  --hostname=smokeping -e PUID=1000   -e PGID=1000   -e TZ=America/Los_Angeles  -p 8950:80  -v $HOME/task/smokeping/scratch:/scratch -v $HOME/task/smokeping/config:/config  -v $HOME/task/smokeping/data:/data --userns=auto:uidmapping=1000:0:1,gidmapping=1000:0:1 localhost/smokeping:deployed
+
