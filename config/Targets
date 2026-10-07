@@ -85,6 +85,41 @@ menu = google dns
 title = 4.2.2.1 (Random DNS) via wired
 host = 4.2.2.1
 
++ ML
+
+menu = ML
+title = ML machines
+
+
+++ ai01
+
+menu = ai01
+title = ai01/dc1-001 (76.74.29.42)
+host = 76.74.29.42
+
+++ ai02
+
+menu = ai02
+title = ai02 (76.74.28.251)
+host = 76.74.28.251
+
+++ ai03
+
+menu = ai03
+title = ai03 atlanta (63.247.64.18)
+host = 63.247.64.18
+
+++ ai04
+
+menu = ai04
+title = ai04 houston (207.210.107.163)
+host = 207.210.107.163
+
+++ tagger
+
+menu = tagger
+title = tagger/se2-001 (76.74.29.2)
+host = 76.74.29.2
 
 + IBX
 
