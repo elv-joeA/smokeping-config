@@ -311,3 +311,25 @@ menu = tr1 vxlan tunnel ip
 title = tr1 vxlan tunnel ip (74.199.200.206)
 host = 74.199.200.206
 
++ MISC
+
+menu = Misc
+title = Miscellaneous
+
+++ sv3_pfsense
+
+menu = sv3 pfsense
+title = sv3 pfsense (162.210.154.254)
+host = 162.210.154.254
+
+++ ocrick
+
+menu = o-cricket
+title = o-cricket-australia-01 (162.210.154.247)
+host = 162.210.154.247
+
+++ sg1-001
+
+menu = sg1-001
+title = sg1-001
+host = 64.235.250.98
